@@ -1,0 +1,84 @@
+/* Basic styles for the cart */
+.cart {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: start;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.item-info h2 {
+    font-size: 18px;
+}
+
+.item-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.quantity {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.like-button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    background-image: url('heart-empty.png');
+    background-size: cover;
+}
+
+.like-button.liked {
+    background-image: url('heart-filled.png');
+    color: #f00;
+}
+
+.delete-button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.delete-button:hover{
+    color: red;
+}
+
+.product button:hover{
+    background-color: red;
+ }
+
+.total {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Responsive styles can be added as needed */
+
+  
